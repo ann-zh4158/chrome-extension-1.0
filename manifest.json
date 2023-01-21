@@ -6,8 +6,7 @@
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
-            "js": ["app.js"],
-            "css": ["style.css"]
+            "js": ["app.js"]
         }
     ],
     "browser_action": {
@@ -16,6 +15,4 @@
         "default_title": "Visual Mad Libs"
     }
 }
-
-
 
