@@ -1,5 +1,6 @@
 window.addEventListener("load", (event) => {
   changeImg();
+  setInterval(changeImg, 10000)
 })
 // take all images on the page and replace them with images
 

@@ -11,6 +11,7 @@
         }
     ],
     "browser_action": {
+        "default_icon": "cat.png",
         "default_popup": "index.html",
         "default_title": "Visual Mad Libs"
     }
