@@ -1,18 +1,18 @@
 {
     "manifest_version": 2,
-    "name": "ChromeExtentionPair8",
+    "name": "Visual Mad Libs",
     "version": "1.0.0",
+    "permissions": ["activeTab", "<all_urls>", "tabs"],
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
-            "js": ["app.js"], 
-            "css": ["style.css"],
-            "html": ["index.html"]
+            "js": ["app.js"],
+            "css": ["style.css"]
         }
     ],
     "browser_action": {
         "default_popup": "index.html",
-        "default_title": "Make It Better"
+        "default_title": "Visual Mad Libs"
     }
 }
 
