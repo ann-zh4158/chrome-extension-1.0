@@ -5,7 +5,7 @@ Features Implemented:
 1. Pop-up accepts user input 
 2. Pop-up will reject unallowable inputs and inform user of rejection 
 3. Pop-up will clear its own search form + rejection message display within a defined period of time 
-4. Replacement of images on the webpage according to theme is decided with defined pseudorandom seed 
+4. Replacement of images on the webpage according to theme is decided with pseudorandom seed 
 
 Known Issues: 
 1. If the user executes the extension scripts before the page has fully loaded all of its images, there will be images that remain in their original form
